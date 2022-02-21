@@ -27,7 +27,7 @@ When using composer and php 7
 
 When in the interactive mode, use `f` to move forward, `r` to rotate right, and `l` to rotate left.
 
-When in non-interactive mode just 
+When in non-interactive mode just follow the instructions on screen.
 
 ## Testing
 Run `docker/test` or, alternatively, `phpunit`. 
