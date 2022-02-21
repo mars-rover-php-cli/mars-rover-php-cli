@@ -78,7 +78,7 @@ class Terminal
                     Direction::WEST => 'West'
                 ]);
 
-                $sequence = $cli->input('Sequence (use a combination of only F to move forward, L to rotate left and R to rotate right):');
+                $sequence = $cli->input('Sequence (use a combination of only lowercase f to move forward, l to rotate left and r to rotate right):');
                 $sequence->accept(function ($response) {
                     return (preg_match('/^[FfLlRr]+$/', $response) === 1);
                 });
