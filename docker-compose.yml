@@ -1,0 +1,8 @@
+version: '3'
+services:
+  php:
+    image: thecodingmachine/php:8.0-v4-fpm-node14
+    environment:
+      PHP_EXTENSION_INTL: 1
+      PHP_EXTENSION_POSIX: 1
+    volumes: [ './:/var/www/html:cached' ]
