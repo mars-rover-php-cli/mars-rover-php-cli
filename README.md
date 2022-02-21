@@ -14,7 +14,7 @@ An (optionally interactive) mars rover kata solution that runs in the command li
 * `cd mars-rover`
 * `docker/up`
 * `docker/composer`
-* Launch: `docker app`
+* Launch: `docker/app`
 
 ### Using composer
 When using composer and php 7 
