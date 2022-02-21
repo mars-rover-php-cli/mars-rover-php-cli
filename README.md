@@ -1,6 +1,6 @@
 # Mars rover by á
 
-An (optionally interactive) mars rover that runs in the command line and has a text-based user interface. 
+An (optionally interactive) mars rover kata solution that runs in the command line and has a text-based user interface. 
 
 ## Requirements
 
