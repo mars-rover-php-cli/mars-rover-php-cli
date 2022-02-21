@@ -30,7 +30,7 @@ When in the interactive mode, use `f` to move forward, `r` to rotate right, and 
 When in non-interactive mode just follow the instructions on screen.
 
 ## Testing
-Run `docker/test` or, alternatively, `phpunit`. 
+Run `docker/tests` or, alternatively, `phpunit`. 
 
 Tests cover basic non-interactive mode and CLImate input. Those are integration tests on top of Mockery, and some are a bit silly and with the sole purpose of playing with more assertions. Unit testing would have been nice too. 
 
